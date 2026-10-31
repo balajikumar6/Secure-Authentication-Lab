@@ -1,0 +1,21 @@
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+test_duplicate_registration (test_auth.AuthTests.test_duplicate_registration) ... ok
+test_generic_login_error (test_auth.AuthTests.test_generic_login_error) ... ok
+test_input_validation (test_auth.AuthTests.test_input_validation) ... ok
+test_password_is_hashed_and_login_works (test_auth.AuthTests.test_password_is_hashed_and_login_works) ... ok
+test_rate_limit (test_auth.AuthTests.test_rate_limit) ... ok
+test_token_tampering (test_auth.AuthTests.test_token_tampering) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.395s
+
+OK
